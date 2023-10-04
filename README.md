@@ -19,4 +19,4 @@ http://localhost:8501
 ```
 5. Load other models of your choice as documented in https://ollama.ai/library
 
-
+<img width="563" alt="image" src="https://github.com/edwin-nz/ollama-chat/assets/36632227/3b47fc37-f4a1-4634-b858-5e2486bef2a1">
