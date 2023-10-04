@@ -1,0 +1,29 @@
+version: '3.2'
+
+services:
+  streamlit:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    networks:
+      - ollama_network  # Connect to the custom bridge network
+    depends_on:
+      - ollama
+    ports:
+      - '8501:8501'  # Map port 8501 from the host to port 8501 within the container
+
+  ollama:
+    image: ollama/ollama:latest
+    networks:
+      - ollama_network  # Connect to the same custom bridge network
+    expose:
+      - 11434
+    volumes:
+      - ollama_data:/home  # Use a named volume for Ollama model data
+
+volumes:
+  ollama_data:
+
+networks:
+  ollama_network:  # Define a custom bridge network
+    driver: bridge
