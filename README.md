@@ -1,5 +1,5 @@
 # ollama-chat
-Streamlit chat app using LLMs in Ollama docker backend. Now you can access Ollama using a browser with the markdown responses correctly display. You can even access from your phone or tablet once you've installed this on your computer. 
+Streamlit chat app using LLMs in Ollama docker backend to interact with the difference models available. Now you can access Ollama using a browser with the markdown responses rendered in the display. You can even access it from your phone or tablet once you've installed this on your computer. 
 
 To run:
 
