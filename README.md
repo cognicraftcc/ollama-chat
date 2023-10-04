@@ -14,7 +14,7 @@ To run:
 ```
 docker-compose up -d
 ```
-3. If this a new installation, there are no models loaded yet so access the ollama Docker container in terminal mode run the following to pull the orca-mini model for the first time 
+3. For a new installation, there are no models loaded yet. So, access the Ollama Docker container in terminal mode and run the following to load your first model.
 ```
 ollama pull orca-mini
 ```
