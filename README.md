@@ -14,7 +14,7 @@ To run:
 ```
 docker-compose up -d
 ```
-3. For a new installation, there are no models loaded yet. So, access the Ollama Docker container in terminal mode and run the following to load your first model.
+3. For a new installation, there are no models loaded yet. So, access the Ollama Docker container in terminal mode and run the following to load your first model
 ```
 ollama pull orca-mini
 ```
@@ -22,5 +22,5 @@ ollama pull orca-mini
 ```
 http://localhost:8501
 ```
-5. Load other models of your choice as documented in https://ollama.ai/library
+5. Try out other models by loading them in the same way. See https://ollama.ai/library for details of all the models supported by Ollama
 
