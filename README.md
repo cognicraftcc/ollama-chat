@@ -1,5 +1,8 @@
 # ollama-chat
-Streamlit chat app using LLMs in Ollama docker backend to interact with the difference models available. Now you can access Ollama using a browser with the markdown responses rendered in the display. You can even access it from your phone or tablet once you've installed this on your computer. 
+
+NOTE: This was a prototype UI to the early command-line Ollama backend. Support is now discontinued and users should try the more advanced [Open WebUI](https://github.com/open-webui/open-webui) now available.
+
+Streamlit chat app using LLMs in Ollama docker backend to interact with the various models available. Now you can access Ollama using a browser with the markdown responses rendered in the display. You can even access it from your phone or tablet once you've installed this on your computer. 
 
 
 <img width="553" alt="image" src="https://github.com/edwin-nz/ollama-chat/assets/36632227/ee764bba-719d-4a69-aeae-997e1f56c50f">
